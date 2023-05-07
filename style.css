@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, sans-serif;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.left-container {
+  grid-column: 1/2;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+}
+.right-container {
+  grid-column: 2/7;
+  border: 2px solid blue;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid red;
+  padding: 0.8rem;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.input {
+  /* width: 80%; */
+  padding: 0.4rem 1.5rem;
+  border-radius: 8rem;
+  outline: none;
+  border: 2px solid #ccc;
+}
+.activities {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+}
+.activity-1,
+.activity-2,
+.activity-3 {
+  border: 2px solid blue;
+  padding: 4rem;
+  width: 17rem;
+  margin: 1rem, 2rem;
+  border-radius: 8px;
+}
+.result {
+  margin: 2rem auto;
+  width: 94%;
+  height: 200px;
+  border: 2px solid brown;
+}
+.learn-more {
+  border-radius: 8px;
+  margin: 2rem auto;
+  width: 94%;
+  height: 200px;
+  border: 2px solid orange;
+}
+.logo {
+  padding: 1.4rem;
+}
+.side-bar-item-cont {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  /* gap: 4rem; */
+}
+.side-bar-items {
+  /* border: 2px solid purple; */
+  /* margin: 0 auto; */
+  margin-bottom: 5px;
+  height: 50px;
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+.upgrade-container {
+  margin-top: 12rem;
+  /* border: 2px solid yellowgreen; */
+  display: flex;
+  flex-direction: column;
+}
+.upgrade-inner-container {
+  margin: 0 auto;
+  background-color: hsla(0, 1%, 68%, 0.235);
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+.upgrade-text {
+  margin-bottom: 0.8rem;
+}
+.upgrade-btn {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(158, 1, 158);
+  padding: 0.5rem 0.8rem;
+}
