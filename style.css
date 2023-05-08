@@ -17,19 +17,28 @@
 .right-container {
   grid-column: 2/7;
   border: 2px solid blue;
+  background-color: #edeff0;
 }
 .top-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding: 0.8rem;
+  box-shadow: 0px 3px 6px #00000029;
 }
 .search-container {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 18px;
+  /* border: 2px solid red; */
+}
+.search {
+  position: absolute;
+  top: 7px;
+  right: 7rem;
 }
 .input {
   /* width: 80%; */
@@ -47,24 +56,56 @@
 .activity-1,
 .activity-2,
 .activity-3 {
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   padding: 4rem;
   width: 17rem;
   margin: 1rem, 2rem;
   border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
 }
 .result {
   margin: 2rem auto;
   width: 94%;
   height: 200px;
-  border: 2px solid brown;
+  background-color: #fff;
+  /* border: 2px solid brown; */
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 8px;
 }
+
 .learn-more {
+  position: relative;
   border-radius: 8px;
   margin: 2rem auto;
   width: 94%;
-  height: 200px;
-  border: 2px solid orange;
+  height: 226px;
+  padding: 2.5rem 3.5rem;
+  /* border: 2px solid orange; */
+  background-color: #000;
+}
+.learn-more-text {
+  /* border: 2px solid red; */
+  width: 80%;
+  color: #fff;
+}
+.learn-more-text h1 {
+  font-size: 42px;
+  font-weight: 400;
+  padding-bottom: 0.8rem;
+}
+.learn-more-btn {
+  border-radius: 8rem;
+  border: none;
+  outline: none;
+  color: rgb(179, 50, 50);
+  padding: 0.4rem 0.9rem;
+  margin: 1.5rem 0.1rem;
+}
+.female-img {
+  position: absolute;
+  top: -35px;
+  right: -30px;
 }
 .logo {
   padding: 1.4rem;
